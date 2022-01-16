@@ -6,7 +6,7 @@ function App() {
       id: 'e1',
       title: 'Toilet Paper',
       amount: 94.12,
-      date: new Date(2020, 7, 14),
+      date: new Date(2020, 8-1, 14),
     },
     {
       id: 'e2',
@@ -24,7 +24,7 @@ function App() {
       id: 'e4',
       title: 'New Desk (Wooden)',
       amount: 450,
-      date: new Date(2021, 5, 12),
+      date: new Date(2021, 5-1, 12),
     },
   ]
   return (
