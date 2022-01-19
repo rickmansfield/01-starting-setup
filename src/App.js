@@ -40,7 +40,7 @@ function App() {
   
   return (
     <div>
-      <NewExpense onAddExpense={ onAddExpenseHandler}/>
+      <NewExpense onAddExpense={ onAddExpenseHandler }/>
       <Expenses items={expenses} />
       
     </div>
