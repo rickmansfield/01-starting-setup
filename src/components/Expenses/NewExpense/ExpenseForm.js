@@ -3,7 +3,6 @@ import './ExpenseForm.css';
 
 
 const ExpenseForm = (props) => {
-  console.log('Props ExpensForm.js', props);
   const [enteredTitle, setEnteredTitle] = useState('');
   const [enteredAmount, setEnteredAmount] = useState('');
   const [enteredDate, setEnteredDate] = useState('');
@@ -66,7 +65,7 @@ const ExpenseForm = (props) => {
         </div>
       </div>
       <div className='"new-expense__actions'>
-        <button type="button" onClick={props.onCancel}>Cancel</button>
+        <button type="button" onClick={props.stopEditingHandler}>Cancel</button>
         <button type='submit'>Add Expense</button>
       </div>
     </form>
